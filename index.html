@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body id="background1" >
+    
+    <style>
+        .receipt{ 
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #background1{
+            background-color: rgb(94, 7, 7);
+        }
+        #background2{
+            background-color: rgb(45, 107, 3);
+            position: static;
+            width: 100%;
+            position: static;
+            
+            
+        }
+       input:hover[type="submit"]{
+        background: rgb(255, 68, 214);
+       }
+        
+       
+    </style>
+    <Center class="receipt">
+        
+    <h1 style="background-color: rgb(45, 107, 3); width: 40%;">Formulario de registro - Mi web</h1>
+    <form id="background2" action="" method="get">
+        <label for="nombre">Nombre(s):<br></label>
+        <input type="text" name="nombre" maxlength="50" placeholder="ingresar nombre"><br>
+        <label for="Apellidos">Apellidos:<br></label>
+        <input type="text" name="Apellidos" maxlength="50" placeholder="ingresar apellidos"><br>
+       <label for="Sexo">Sexo:</label>
+        <input type="radio" name="genero" value="Masculino">Maculino 
+        <input type="radio" name="genero" value="Femenino">Femenino <br>
+        Poblaci&oacute;n:&nbsp;<select name="Estados Opciones">
+            <option value="Opcion1">Cordoba</option>
+            <option value="Opcion1">Veracruz</option>
+            <option value="Opcion1">Xalapa</option>
+            <option value="Opcion1">Orizaba</option>
+        </select><br>
+        <label><input type="checkbox" checked>Deseo recibir informaci&oacute;n sobre novedades y ofertas</label><br>
+        <label><input type="checkbox">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <label><input type="checkbox">Deseo recibir informaci&oacute;n</label><br><br>
+        <input type="submit"  style="border-radius: 12px;"><br>
+
+
+
+
+
+    </form>
+    </Center>
+
+</body>
+</html>
